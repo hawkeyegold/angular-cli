@@ -1,0 +1,17 @@
+div { 
+  color:white; 
+  font-family: verdana; 
+  font-size: 14px;   
+  padding:0 5px 0 5px;
+  display:inline-block;
+}
+div:hover { 
+  color: Yellow;
+  cursor: pointer; 
+}
+
+@media screen and (max-width: 480px) {
+  div {
+    display:block;
+  }
+}
